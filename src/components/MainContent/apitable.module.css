@@ -1,0 +1,48 @@
+
+
+.table_container {
+  width: 100%;
+  background-color: white;
+  padding:1rem;
+  border-radius: 1rem;
+  margin-top: 4rem;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filter_section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.search_section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  background-color: white;
+}
+
+.search_section input{
+  outline: none;
+  border: none;
+}
+
+.table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 10px;
+}
+
